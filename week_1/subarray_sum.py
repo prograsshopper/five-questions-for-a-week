@@ -1,5 +1,5 @@
 # 1 Brute Force : Time Exceed
-def subarraySum(nums):
+def subarraySum(nums, k):
         if len(nums) == 0:
             return 0
         if len(nums) <= 1:
